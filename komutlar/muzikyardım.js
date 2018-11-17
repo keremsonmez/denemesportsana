@@ -16,7 +16,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription(' **Yapımcı: Kerem Sönmez(Quadriâ)** \n\n **Deneme E-Sports Müzik Komutları ** \n\nMüzik Eklemek İçin ${prefix}add [Müzik İsmi] \n\n Müziği Açmak İçin ${prefix}play \n\nBotu Kanala Almak İçin ${prefix}join \n\n Botun Listesini Öğrenmek İçin ${prefix}queue \nBotu Kanaldan Çıkarmak İçin ${prefix}leave \n\n**:copyright: 2018-2019 BDAL**');
+    .setDescription(' **Yapımcı: Kerem Sönmez(Quadriâ)** \n\n **Deneme E-Sports Müzik Komutları ** \n\nMüzik Eklemek İçin **-add [Müzik İsmi]** \n\n Müziği Açmak İçin **-play** \n\nBotu Kanala Almak İçin **-join** \n\n Botun Listesini Öğrenmek İçin **-queue** \nBotu Kanaldan Çıkarmak İçin **-leave** \n\n**:copyright: 2018-2019 BDAL**');
     return message.author.sendEmbed(pingozel)
 };
 
