@@ -4,6 +4,8 @@ const ayarlar = require('./ayarlar.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
+const chancejs = require('chance');
+const { Command } = require('discord.js-commando');
 require('./util/eventLoader')(client);
 
 var prefix = ayarlar.prefix;
